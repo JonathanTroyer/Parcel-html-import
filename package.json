@@ -1,0 +1,26 @@
+{
+  "name": "parcel-html-import",
+  "version": "1.0.0",
+  "description": "Demonstrates a bug when using ParcelJS to run a JS function imported in HMTL",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanTroyer/Parcel-html-import.git"
+  },
+  "keywords": [
+    "parceljs",
+    "bug"
+  ],
+  "author": "Jonathan Troyer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JonathanTroyer/Parcel-html-import/issues"
+  },
+  "homepage": "https://github.com/JonathanTroyer/Parcel-html-import#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.3"
+  }
+}
