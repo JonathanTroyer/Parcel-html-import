@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ParcelJS Bug</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.js"></script>
+
+    <!-- Note that imports not handled by Parcel don't cause breakage -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Comment the below line to disable the bug -->
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+
+    <script src="./main.js"></script>
 </head>
 
-<body onload="main()">
-    <button onclick="main2()">Check the console!</button>
+<body>
+    <button onclick="lib.main()">Check the console!</button>
 </body>
 
 </html>

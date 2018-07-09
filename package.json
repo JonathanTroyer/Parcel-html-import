@@ -4,7 +4,7 @@
   "description": "Demonstrates a bug when using ParcelJS to run a JS function imported in HMTL",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html --global lib"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/JonathanTroyer/Parcel-html-import#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.9.3"
+    "parcel-bundler": "^1.9.4"
   }
 }
